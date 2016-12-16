@@ -42,6 +42,7 @@ public class SimpleObservableNameDropper {
 	@RequestMapping("/flatmap/{names}")
 	public String flatMapProcessing(@PathVariable String[] names) {
 		return flatMap(names);
+		
 	}
 
 	public String flatMap(String... names) {
